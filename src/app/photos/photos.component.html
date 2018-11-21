@@ -1,0 +1,8 @@
+<p>
+  photos works!
+</p>
+<ul class="wall">
+  <li *ngFor="let item of testarr; let idx = index;" class="wall-tiles" [style.backgroundImage]="getBackground(item.url)" >
+    {{idx}}.<span>{{item.title}}</span>
+  </li>
+</ul>
