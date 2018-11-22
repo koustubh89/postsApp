@@ -22,7 +22,6 @@ export class AppComponent {
   }
 
   getActiveClass() {
-    console.log(this.currentRoute);
     return this.currentRoute;
   }
 }

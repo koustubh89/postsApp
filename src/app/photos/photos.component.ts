@@ -24,9 +24,8 @@ export class PhotosComponent implements OnInit {
   getPhotos() {
     this.getConfig()
     .subscribe((data) => {
-      this.testarr = data
-      this.testarr.sort((val1, val2)=> {return val1.title.length - val2.title.length})
-      console.log(this.testarr);
+      this.testarr = data;
+      this.testarr.sort((val1, val2)=> {return val1.title.length - val2.title.length});
     });
   }
 
