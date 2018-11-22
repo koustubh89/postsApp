@@ -2,13 +2,13 @@
 <div class="home">
 
   <div style="text-align:center">
-    <h1>
-      Welcome to {{ title }}!
+    <h1 class="site-header">
+      {{ title }}
     </h1>
   </div>
   <ul>
     <li [ngClass]="{'active' : getActiveClass() == 'home'}">
-      <a target="_blank" rel="noopener" href="/">home</a>
+      <a rel="noopener" href="/">home</a>
     </li>
     <li [ngClass]="{'active' : getActiveClass() == 'photos'}">
       <a rel="noopener" href="photos">Photos</a>

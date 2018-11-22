@@ -1,8 +1,6 @@
-<p>
-  photos works!
-</p>
+<h1 class="page-subheading">Photos</h1>
 <ul class="wall">
   <li *ngFor="let item of testarr; let idx = index;" class="wall-tiles" [style.backgroundImage]="getBackground(item.url)" >
-    {{idx}}.<span>{{item.title}}</span>
+    {{idx}}.<span>{{" " + item.title}}</span>
   </li>
 </ul>
