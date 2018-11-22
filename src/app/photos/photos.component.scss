@@ -1,17 +1,21 @@
 .wall {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    // background-image: url(../images/ourlocation.jpg);
     background-repeat: no-repeat;
     background-position: 0 -.2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+    width: 95%;
 
     .wall-tiles {
-        list-style: none;
-        height: 100px;        
-        width: 100px;
         border: 1px solid #4f4f4f;
-        overflow: hidden;
+        height: 200px;
+        /* flex-basis: 200px; */
+        list-style: none;
         margin-top: 5px;
+        overflow: hidden;
+        padding: 8px;
+        width: auto;
     }
 }

@@ -19,7 +19,6 @@ export class AppComponent {
         this.currentRoute = 'home';
       }
     });
-    console.log(this.currentRoute);
   }
 
   getActiveClass() {
